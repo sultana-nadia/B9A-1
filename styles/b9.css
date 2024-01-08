@@ -67,7 +67,7 @@ header{
     width: 1200px;
     margin: auto;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     background-size: cover;
     border: 0;
     border-radius: 10px;
@@ -105,5 +105,36 @@ header{
     /* margin-bottom: 60px;
     margin-right: 90px; */
 }
-
+.gradient{
+    background-image: linear-gradient(to bottom,#FEEEEE,#fff);
+    height:450px ;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.nav{
+    text-align: center;
+}
+.btnn{
+    padding: 10px 15px;
+    color:white;
+    background-color: orangered;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+}
+.red{
+    color: #F00;
+}
+.nav{
+    font-size: 25px;
+    text-align: center;
+}
+.btn2{
+    text-align: center;
+    margin-top: 30px;
+}
+.mid{
+    padding: 100px 380px 0px 380px;
+}
 
