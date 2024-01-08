@@ -137,4 +137,85 @@ header{
 .mid{
     padding: 100px 380px 0px 380px;
 }
-
+.full{
+    display: flex;
+    margin-bottom: 150px;
+}
+.a{
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.b{
+    margin-left: 160px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.c{
+    margin-left: 190px;
+    width: 200px;
+}
+.circle{
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+}
+.neww{
+    color: red;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.neww2{
+    font-size: 33px;
+    padding-bottom: 8px;
+}
+.lorem{
+    color: rgb(111, 109, 109);
+}
+.happy{
+    height:100px;
+    width: 100px;
+}
+.sec5head{
+    margin-left: 150px;
+    width: 500px;
+}
+.first{
+    font-size: 18px;
+    color:#F00;
+}
+.second{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: Merriweather;
+}
+.third{
+    font-size: ;
+    margin-bottom: 60px;
+}
+.row1{
+    display: flex;
+    margin-left: 150px;
+    
+}
+.one{
+    padding: 5px;
+    height: 400px;
+    width: 380px;
+}
+.row2{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+.two{
+    padding: 5px;
+    height: 400px;
+    width: 380px;
+}
+.one:hover{
+    background-color: rgb(95, 83, 83);
+}
+.two:hover{
+    background-color: rgb(95, 83, 83);
+}
