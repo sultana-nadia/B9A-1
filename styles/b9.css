@@ -1,0 +1,62 @@
+/* header part style */
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-container{
+    text-align: center;
+    color:rgb(13, 13, 13);
+    padding: 200px 100px 50px 100px;
+}
+.first-head{
+    font-size: 22px;
+    margin-bottom: 0px;
+    line-height: 1;
+    font-family: Merriweather;
+}
+.head2{
+    font-size: 37px;
+    justify-content: space-around;
+    padding: 30px 300px;
+    font-weight: 900;
+    font-family: Merriweather;
+}
+header{
+    background-image: url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin:0 auto;
+    margin-top: 40px;
+    height: 500px;
+    width: 1200px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+/* maincontainer section1 */
+
+.mainH-container{
+    text-align: center;
+}
+.off{
+    font-size:50px;
+    color: red;
+    margin-bottom: 25px;
+}
+.deal{
+    color: red;
+    margin-bottom: 10px;
+}
+.all{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+.pic{
+    height: 500px;
+    width: 800px;
+    margin: 15px 400px;
+}
+/* .year-pic{
+    margin: 0 auto;
+} */
