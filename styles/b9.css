@@ -55,8 +55,55 @@ header{
 .pic{
     height: 500px;
     width: 800px;
-    margin: 15px 400px;
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
 }
-/* .year-pic{
-    margin: 0 auto;
-} */
+
+.sec-pic{
+    background-image:url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+    background-size: cover;
+    border: 0;
+    border-radius: 10px;
+}
+.sec2head{
+    padding: 80px 80px 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+}
+.head-sec2{
+    font-family: Merriweather;
+    color: white;
+    font-size: 50px;
+    width: 500px;
+    padding-bottom: 10px;
+}
+.head-para2{
+    font-size: 18px;
+    color: white;
+    justify-content: space-around;
+    width: 550px;
+    padding-bottom: 10px;
+}
+.btn1{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: bisque;
+    color: black;
+}
+.grp{
+    height: 370px;
+    width: 300px;
+    /* margin-bottom: 60px;
+    margin-right: 90px; */
+}
+
+
