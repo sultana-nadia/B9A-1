@@ -245,28 +245,51 @@ header{
     padding-top: 15px;
     padding-bottom: 50px;
 }
+label{
+    position: relative;
+}
+.lab{
+    border: none;
+    padding: 15px;
+    width: 300px;
+   
+}
+.btn3{
+    position: absolute;
+    border: none;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    border-radius: 3px;
+}
 .input{
     text-align: center;
 }
-.label{
+.btn3:hover{
+    transition: 0.2s;
+    background-color: rgb(69, 104, 198);
+}
+/* .label{
     height: 35px;
     width: 270px;
     border: 0;
     border-radius: 10px;
     padding: 0 16px;
-}
-.btn3{
+}  */
+/* .btn3{
     height: 35px;
-    border: 0;
+    border: none;
     border-radius: 5px;
     width: 70px;
     background-color: orangered;
     color: white;
-}
-.btn3:hover{
-    transition: 0.2s;
-    background-color: rgb(40, 76, 175);
-}
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+} */
+
 .footer{
     background-color: black;
     color: white;
@@ -299,6 +322,7 @@ hr{
 .icon{
     text-align: center;
     padding-top: 40px;
+    gap: 5px;
 }
 .again{
     display: flex;
@@ -307,4 +331,10 @@ hr{
     padding-right: 150px;
     padding-top: 20px;
     font-size: 26px;
+}
+.ic1{
+    padding-left: 8px;
+}
+label{
+    position: relative;
 }
